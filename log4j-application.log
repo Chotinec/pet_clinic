@@ -1,0 +1,18 @@
+2016-06-11 13:19:41 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-11 13:29:13 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-11 13:31:08 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-11 13:31:09 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-11 13:31:33 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-11 13:31:34 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-11 13:40:48 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-11 13:40:49 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-11 13:46:24 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-11 13:46:26 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-11 13:47:26 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-11 13:47:55 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-11 13:47:56 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-11 13:48:35 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-11 13:48:36 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-11 19:23:13 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-11 19:23:44 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-11 19:23:46 WARN  C3P0ConnectionProvider:141 - HHH000148: No JDBC Driver class was specified by property hibernate.connection.driver_class

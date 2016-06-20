@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="ru.parsentev.models.PetTypeModel" table="pet_type">
+        <id name="type_id" column="type_id">
+            <generator class="native"/>
+        </id>
+        <property name="type" column="type" type="string"/>
+        <set name="petModels" table="pets">
+            <key>
+                <column name="type_id" not-null="true"/>
+            </key>
+            <one-to-many class="ru.parsentev.models.PetModel"/>
+        </set>
+    </class>
+</hibernate-mapping>

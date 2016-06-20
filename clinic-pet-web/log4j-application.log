@@ -1,0 +1,87 @@
+2016-06-12 12:42:47 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-12 12:42:51 WARN  C3P0ConnectionProvider:141 - HHH000148: No JDBC Driver class was specified by property hibernate.connection.driver_class
+2016-06-12 12:44:45 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-12 12:44:48 WARN  C3P0ConnectionProvider:141 - HHH000148: No JDBC Driver class was specified by property hibernate.connection.driver_class
+2016-06-12 12:54:24 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-12 12:54:25 WARN  C3P0ConnectionProvider:141 - HHH000148: No JDBC Driver class was specified by property hibernate.connection.driver_class
+2016-06-12 13:55:40 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-12 13:55:42 WARN  C3P0ConnectionProvider:141 - HHH000148: No JDBC Driver class was specified by property hibernate.connection.driver_class
+2016-06-12 14:12:29 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-12 14:12:30 WARN  C3P0ConnectionProvider:141 - HHH000148: No JDBC Driver class was specified by property hibernate.connection.driver_class
+2016-06-19 15:46:37 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-19 15:46:40 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 15:46:40 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 15:46:40 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 15:46:41 WARN  C3P0ConnectionProvider:141 - HHH000148: No JDBC Driver class was specified by property hibernate.connection.driver_class
+2016-06-19 15:46:44 ERROR SchemaUpdate:261 - HHH000388: Unsuccessful: alter table pets add constraint FK_5avf7qbbcwdrfspmfktmmv197 foreign key (type_id) references pet_type (type_id)
+2016-06-19 15:46:44 ERROR SchemaUpdate:262 - Can't create table 'pet_clinic.#sql-4a3_7b' (errno: 150)
+2016-06-19 15:49:48 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-19 15:49:49 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 15:49:49 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 15:49:49 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 15:49:49 WARN  C3P0ConnectionProvider:141 - HHH000148: No JDBC Driver class was specified by property hibernate.connection.driver_class
+2016-06-19 15:49:52 ERROR SchemaUpdate:261 - HHH000388: Unsuccessful: alter table pets add constraint FK_5avf7qbbcwdrfspmfktmmv197 foreign key (type_id) references pet_type (type_id)
+2016-06-19 15:49:52 ERROR SchemaUpdate:262 - Can't create table 'pet_clinic.#sql-4a3_8b' (errno: 150)
+2016-06-19 16:11:55 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-19 16:11:56 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 16:11:56 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 16:11:56 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 16:11:56 WARN  C3P0ConnectionProvider:141 - HHH000148: No JDBC Driver class was specified by property hibernate.connection.driver_class
+2016-06-19 16:11:59 ERROR SchemaUpdate:261 - HHH000388: Unsuccessful: alter table pets add constraint FK_5avf7qbbcwdrfspmfktmmv197 foreign key (type_id) references pet_type (type_id)
+2016-06-19 16:11:59 ERROR SchemaUpdate:262 - Can't create table 'pet_clinic.#sql-4a3_90' (errno: 150)
+2016-06-19 16:12:12 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-19 16:12:12 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 16:12:12 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 16:12:12 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 16:12:13 WARN  C3P0ConnectionProvider:141 - HHH000148: No JDBC Driver class was specified by property hibernate.connection.driver_class
+2016-06-19 16:12:16 ERROR SchemaUpdate:261 - HHH000388: Unsuccessful: alter table pets add constraint FK_5avf7qbbcwdrfspmfktmmv197 foreign key (type_id) references pet_type (type_id)
+2016-06-19 16:12:16 ERROR SchemaUpdate:262 - Can't create table 'pet_clinic.#sql-4a3_99' (errno: 150)
+2016-06-19 16:13:39 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-19 16:13:40 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 16:13:40 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 16:13:40 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 16:13:40 WARN  C3P0ConnectionProvider:141 - HHH000148: No JDBC Driver class was specified by property hibernate.connection.driver_class
+2016-06-19 16:13:43 ERROR SchemaUpdate:261 - HHH000388: Unsuccessful: alter table pets add constraint FK_5avf7qbbcwdrfspmfktmmv197 foreign key (type_id) references pet_type (type_id)
+2016-06-19 16:13:43 ERROR SchemaUpdate:262 - Can't create table 'pet_clinic.#sql-4a3_9e' (errno: 150)
+2016-06-19 16:13:57 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-19 16:13:58 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 16:13:58 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 16:13:58 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 16:13:58 WARN  C3P0ConnectionProvider:141 - HHH000148: No JDBC Driver class was specified by property hibernate.connection.driver_class
+2016-06-19 16:14:01 ERROR SchemaUpdate:261 - HHH000388: Unsuccessful: alter table pets add constraint FK_5avf7qbbcwdrfspmfktmmv197 foreign key (type_id) references pet_type (type_id)
+2016-06-19 16:14:01 ERROR SchemaUpdate:262 - Can't create table 'pet_clinic.#sql-4a3_a7' (errno: 150)
+2016-06-19 18:17:59 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-19 18:18:02 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 18:18:02 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 18:18:02 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 18:18:02 WARN  C3P0ConnectionProvider:141 - HHH000148: No JDBC Driver class was specified by property hibernate.connection.driver_class
+2016-06-19 18:18:09 ERROR SchemaUpdate:261 - HHH000388: Unsuccessful: alter table pets add constraint FK_5avf7qbbcwdrfspmfktmmv197 foreign key (type_id) references pet_type (type_id)
+2016-06-19 18:18:09 ERROR SchemaUpdate:262 - Can't create table 'pet_clinic.#sql-4a3_ac' (errno: 150)
+2016-06-19 19:04:59 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-19 19:05:00 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 19:05:00 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 19:05:00 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 19:05:01 WARN  C3P0ConnectionProvider:141 - HHH000148: No JDBC Driver class was specified by property hibernate.connection.driver_class
+2016-06-19 19:05:06 ERROR SchemaUpdate:261 - HHH000388: Unsuccessful: alter table pets add constraint FK_5avf7qbbcwdrfspmfktmmv197 foreign key (type_id) references pet_type (type_id)
+2016-06-19 19:05:06 ERROR SchemaUpdate:262 - Can't create table 'pet_clinic.#sql-4a3_c0' (errno: 150)
+2016-06-19 21:34:54 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-19 21:34:56 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 21:34:57 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 21:34:57 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 21:34:57 WARN  C3P0ConnectionProvider:141 - HHH000148: No JDBC Driver class was specified by property hibernate.connection.driver_class
+2016-06-19 21:35:03 ERROR SchemaUpdate:261 - HHH000388: Unsuccessful: alter table pets add constraint FK_5avf7qbbcwdrfspmfktmmv197 foreign key (type_id) references pet_type (type_id)
+2016-06-19 21:35:03 ERROR SchemaUpdate:262 - Can't create table 'pet_clinic.#sql-4a3_d0' (errno: 150)
+2016-06-19 21:35:59 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-19 21:35:59 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 21:35:59 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 21:35:59 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-19 21:36:00 WARN  C3P0ConnectionProvider:141 - HHH000148: No JDBC Driver class was specified by property hibernate.connection.driver_class
+2016-06-19 21:36:03 ERROR SchemaUpdate:261 - HHH000388: Unsuccessful: alter table pets add constraint FK_5avf7qbbcwdrfspmfktmmv197 foreign key (type_id) references pet_type (type_id)
+2016-06-19 21:36:03 ERROR SchemaUpdate:262 - Can't create table 'pet_clinic.#sql-4a3_d7' (errno: 150)
+2016-06-20 12:15:09 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-20 12:15:10 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-20 12:15:10 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-20 12:15:10 WARN  DTDEntityResolver:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2016-06-20 12:15:11 WARN  C3P0ConnectionProvider:141 - HHH000148: No JDBC Driver class was specified by property hibernate.connection.driver_class
+2016-06-20 12:15:14 ERROR SchemaUpdate:261 - HHH000388: Unsuccessful: alter table pets add constraint FK_5avf7qbbcwdrfspmfktmmv197 foreign key (type_id) references pet_type (type_id)
+2016-06-20 12:15:14 ERROR SchemaUpdate:262 - Can't create table 'pet_clinic.#sql-4a1_28' (errno: 150)
