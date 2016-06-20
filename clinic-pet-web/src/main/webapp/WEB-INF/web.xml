@@ -11,7 +11,7 @@
     </description>
 
     <welcome-file-list>
-        <welcome-file>/views/clinic/ClinicView.jsp</welcome-file>
+        <welcome-file>/views/user/UserView.jsp</welcome-file>
     </welcome-file-list>
 
     <servlet>
@@ -63,54 +63,5 @@
         <servlet-name>UserDeleteServlet</servlet-name>
         <url-pattern>/user/delete</url-pattern>
     </servlet-mapping>
-    
-    <servlet>
-        <servlet-name>ClinicViewServlet</servlet-name>
-        <servlet-class>ru.parsentev.clinicServlets.ClinicViewServlet</servlet-class>
-    </servlet>
-    
-    <servlet-mapping>
-        <servlet-name>ClinicViewServlet</servlet-name>
-        <url-pattern>/clinic/view</url-pattern>
-    </servlet-mapping>
-    
-    <servlet>
-        <servlet-name>ClinicCreateServlet</servlet-name>
-        <servlet-class>ru.parsentev.clinicServlets.ClinicCreateServlet</servlet-class>
-    </servlet>
 
-    <servlet-mapping>
-        <servlet-name>ClinicCreateServlet</servlet-name>
-        <url-pattern>/clinic/create</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
-        <servlet-name>ClinicEditServlet</servlet-name>
-        <servlet-class>ru.parsentev.clinicServlets.ClinicEditServlet</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>ClinicEditServlet</servlet-name>
-        <url-pattern>/clinic/edit</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
-        <servlet-name>ClinicDeleteServlet</servlet-name>
-        <servlet-class>ru.parsentev.clinicServlets.ClinicDeleteServlet</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>ClinicDeleteServlet</servlet-name>
-        <url-pattern>/clinic/delete</url-pattern>
-    </servlet-mapping>
-    
-    <servlet>
-        <servlet-name>PetDeleteServlet</servlet-name>
-        <servlet-class>ru.parsentev.clinicServlets.PetDeleteServlet</servlet-class>
-    </servlet>
-    
-    <servlet-mapping>
-        <servlet-name>PetDeleteServlet</servlet-name>
-        <url-pattern>/pet/delete</url-pattern>
-    </servlet-mapping>
 </web-app>
