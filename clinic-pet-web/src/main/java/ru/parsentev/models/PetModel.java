@@ -4,10 +4,10 @@ package ru.parsentev.models;
  * Pet model
  * Created by art on 19.06.16.
  */
-public class PetModel {
+public class PetModel extends Base {
 
-    private Long id;
     private String name;
+    private int weight;
 
     private PetTypeModel petTypeModel;
     private ClientModel clientModel;
@@ -16,14 +16,6 @@ public class PetModel {
 
     public PetModel(String name){
         this.name = name;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 
     public String getName() {
@@ -48,5 +40,13 @@ public class PetModel {
 
     public void setClientModel(ClientModel clientModel) {
         this.clientModel = clientModel;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
     }
 }

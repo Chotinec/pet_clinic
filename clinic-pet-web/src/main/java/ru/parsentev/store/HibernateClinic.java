@@ -5,7 +5,6 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import ru.lesson.lessions.Animals.Pet;
-import ru.lesson.lessions.Animals.PetType;
 import ru.lesson.lessions.Client;
 import ru.lesson.lessions.PetCreator;
 import ru.parsentev.models.ClientModel;
@@ -21,7 +20,7 @@ import java.util.List;
  * Hibernate clinic
  * Created by art on 12.06.16.
  */
-public class HibernateClinic implements PetClinic {
+public class HibernateClinic implements StorageClinic {
 
     private final SessionFactory factory;
 

@@ -9,7 +9,7 @@ import java.util.List;
  * Clinic interface
  * Created by art on 29.05.16.
  */
-public interface PetClinic {
+public interface StorageClinic {
 
     /**
      * Get all clients

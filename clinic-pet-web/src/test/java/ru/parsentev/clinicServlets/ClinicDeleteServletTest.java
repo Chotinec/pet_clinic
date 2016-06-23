@@ -1,16 +1,6 @@
 package ru.parsentev.clinicServlets;
 
-import org.junit.Test;
 import org.mockito.Mockito;
-import ru.parsentev.servlets.UserDeleteServlet;
-import ru.parsentev.store.UserCashe;
-
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by art on 29.05.16.

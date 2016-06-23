@@ -15,7 +15,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
  * Pet clinic based on jdbc
  * Created by art on 06.06.16.
  */
-public class JdbcClinic implements PetClinic {
+public class JdbcClinic implements StorageClinic {
 
     /** Connection with DB */
     private final Connection connection;

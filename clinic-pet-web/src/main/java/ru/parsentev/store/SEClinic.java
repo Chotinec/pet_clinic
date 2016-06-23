@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * Created by art on 06.06.16.
  */
-public class SEClinic implements PetClinic {
+public class SEClinic implements StorageClinic {
     private static final String ID = "id";
     private static final String CLIENT_NAME = "clientName";
     private static final String PET_NAME = "petName";

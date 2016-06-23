@@ -1,10 +1,7 @@
 package ru.parsentev.store;
 
 import ru.lesson.lessions.Client;
-import ru.lesson.lessions.Clinic;
-import ru.lesson.lessions.exception.InterruptOperationException;
 
-import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
@@ -12,7 +9,7 @@ import java.util.List;
  * Singletpn clinic
  * Created by art on 30.05.16.
  */
-public class ClinicCashe implements PetClinic{
+public class ClinicCashe implements StorageClinic {
 
     private Client currentClient = null;
 
@@ -20,7 +17,7 @@ public class ClinicCashe implements PetClinic{
     private static final ClinicCashe INSTANCE = new ClinicCashe();
 
     //private final PetClinic clinic = new SEClinic();
-    private final PetClinic clinic = new JdbcClinic();
+    private final StorageClinic clinic = new JdbcClinic();
 
     private ClinicCashe(){}
 
