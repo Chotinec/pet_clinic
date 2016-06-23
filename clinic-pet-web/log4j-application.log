@@ -87,3 +87,48 @@
 2016-06-20 12:15:14 ERROR SchemaUpdate:262 - Can't create table 'pet_clinic.#sql-4a1_28' (errno: 150)
 2016-06-20 13:06:22 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
 2016-06-20 13:06:23 WARN  C3P0ConnectionProvider:141 - HHH000148: No JDBC Driver class was specified by property hibernate.connection.driver_class
+2016-06-20 20:03:39 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-20 20:05:04 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-20 20:06:16 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-20 20:08:12 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-20 20:08:20 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-20 20:38:33 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-20 20:42:11 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-20 20:42:25 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-20 20:44:33 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-20 20:50:28 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-20 20:50:29 WARN  C3P0ConnectionProvider:141 - HHH000148: No JDBC Driver class was specified by property hibernate.connection.driver_class
+2016-06-20 20:50:32 ERROR SchemaUpdate:261 - HHH000388: Unsuccessful: alter table messages add constraint FK_j3v4l57l24nd1rt1nm8c27l4g foreign key (user_id) references users (uid)
+2016-06-20 20:50:32 ERROR SchemaUpdate:262 - Can't create table '18_lesson.#sql-4a1_a7' (errno: 150)
+2016-06-20 20:50:32 ERROR SchemaUpdate:261 - HHH000388: Unsuccessful: alter table users add constraint FK_krvotbtiqhudlkamvlpaqus0t foreign key (role_id) references roles (uid)
+2016-06-20 20:50:32 ERROR SchemaUpdate:262 - Can't create table '18_lesson.#sql-4a1_a7' (errno: 150)
+2016-06-20 20:50:33 WARN  SqlExceptionHelper:144 - SQL Error: 1048, SQLState: 23000
+2016-06-20 20:50:33 ERROR SqlExceptionHelper:146 - Column 'role_id' cannot be null
+2016-06-20 20:50:33 ERROR AssertionFailure:50 - HHH000099: an assertion failure occured (this may indicate a bug in Hibernate, but is more likely due to unsafe use of the session): org.hibernate.AssertionFailure: null id in ru.parsentev.models.User entry (don't flush the Session after an exception occurs)
+2016-06-20 20:52:20 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-20 20:52:21 WARN  C3P0ConnectionProvider:141 - HHH000148: No JDBC Driver class was specified by property hibernate.connection.driver_class
+2016-06-20 20:52:24 ERROR SchemaUpdate:261 - HHH000388: Unsuccessful: alter table messages add constraint FK_j3v4l57l24nd1rt1nm8c27l4g foreign key (user_id) references users (uid)
+2016-06-20 20:52:24 ERROR SchemaUpdate:262 - Can't create table '18_lesson.#sql-4a1_b6' (errno: 150)
+2016-06-20 20:52:24 ERROR SchemaUpdate:261 - HHH000388: Unsuccessful: alter table users add constraint FK_krvotbtiqhudlkamvlpaqus0t foreign key (role_id) references roles (uid)
+2016-06-20 20:52:24 ERROR SchemaUpdate:262 - Can't create table '18_lesson.#sql-4a1_b6' (errno: 150)
+2016-06-20 20:52:24 WARN  SqlExceptionHelper:144 - SQL Error: 1048, SQLState: 23000
+2016-06-20 20:52:24 ERROR SqlExceptionHelper:146 - Column 'role_id' cannot be null
+2016-06-20 20:52:24 ERROR AssertionFailure:50 - HHH000099: an assertion failure occured (this may indicate a bug in Hibernate, but is more likely due to unsafe use of the session): org.hibernate.AssertionFailure: null id in ru.parsentev.models.User entry (don't flush the Session after an exception occurs)
+2016-06-20 21:05:14 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-20 21:05:16 WARN  C3P0ConnectionProvider:141 - HHH000148: No JDBC Driver class was specified by property hibernate.connection.driver_class
+2016-06-20 21:05:19 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table messages drop foreign key FK_j3v4l57l24nd1rt1nm8c27l4g
+2016-06-20 21:05:19 ERROR SchemaExport:427 - Table '18_lesson.messages' doesn't exist
+2016-06-20 21:05:19 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table users drop foreign key FK_krvotbtiqhudlkamvlpaqus0t
+2016-06-20 21:05:19 ERROR SchemaExport:427 - Table '18_lesson.users' doesn't exist
+2016-06-20 21:07:32 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-20 21:07:34 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-20 21:09:01 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-20 21:09:03 WARN  C3P0ConnectionProvider:141 - HHH000148: No JDBC Driver class was specified by property hibernate.connection.driver_class
+2016-06-20 21:10:34 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-20 21:10:36 WARN  C3P0ConnectionProvider:141 - HHH000148: No JDBC Driver class was specified by property hibernate.connection.driver_class
+2016-06-20 21:32:35 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-20 21:32:37 WARN  C3P0ConnectionProvider:141 - HHH000148: No JDBC Driver class was specified by property hibernate.connection.driver_class
+2016-06-20 21:42:12 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-20 21:42:13 WARN  C3P0ConnectionProvider:141 - HHH000148: No JDBC Driver class was specified by property hibernate.connection.driver_class
+2016-06-23 12:59:05 DEBUG logging:194 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-06-23 12:59:07 WARN  C3P0ConnectionProvider:141 - HHH000148: No JDBC Driver class was specified by property hibernate.connection.driver_class

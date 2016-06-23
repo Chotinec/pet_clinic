@@ -3,7 +3,11 @@ package ru.parsentev.store;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import ru.parsentev.models.Message;
+import ru.parsentev.models.Role;
 import ru.parsentev.models.User;
+
+import java.util.HashSet;
 
 import static org.junit.Assert.*;
 
@@ -13,11 +17,11 @@ import static org.junit.Assert.*;
  */
 public class HibernateStorageTest {
 
-    private HibernateStorage storage = null;
+    private UserStorage storage = null;
 
     @Before
     public void setConnection() {
-        this.storage = new HibernateStorage();
+        this.storage = new UserStorage();
     }
 
     @After
@@ -45,6 +49,27 @@ public class HibernateStorageTest {
         assertEquals(id,storage.findByLogin("newHibernate").getId());
         storage.delete(id);
         assertNull(storage.get(id));
+    }
+
+    @Test
+    public void testCreateUser()throws Exception{
+        Role role = new Role();
+        role.setName("admin");
+        User user = new User();
+        user.setLogin("test");
+        user.setEmail("test@test");
+        user.setRole(role);
+        final int id = storage.add(user);
+        user = storage.get(id);
+        Message message = new Message();
+        message.setUser(user);
+        message.setText("text");
+        HashSet<Message> messages = new HashSet<Message>();
+        messages.add(message);
+        user.setMessages(messages);
+        storage.edit(user);
+        assertEquals(1, storage.get(id).getMessages().size());
+        storage.delete(id);
     }
 
 }

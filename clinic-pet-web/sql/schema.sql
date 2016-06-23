@@ -37,3 +37,26 @@ UPDATE pet as pet SET nick = 'Bob' WHERE nick = 'Bobby';
 
 --delete Pet by nick
 DELETE FROM pet WHERE nick = 'Bob';
+
+-- roles
+create table roles (
+		uid serial primary key,
+		name varchar(200)
+);
+
+-- users
+create table users (
+		uid serial primary key,
+		login varchar(200),
+		email varchar(200),
+		role_id int not null references roles(uid)
+);
+
+-- messages
+
+-- users
+create table messages (
+		uid serial primary key,
+		text  character varying,
+		user_id int not null references users(uid)
+);

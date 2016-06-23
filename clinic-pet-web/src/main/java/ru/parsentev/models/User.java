@@ -1,5 +1,7 @@
 package ru.parsentev.models;
 
+import java.util.Set;
+
 /**
  * Created by art on 25.05.16.
  */
@@ -7,34 +9,47 @@ public class User extends Base {
 
     private String login;
     private String email;
+    private Role role;
+    private Set<Message> messages;
 
-    public User(){
-
+    public User() {
     }
 
-    public User(int id, String login, String email) {
+    public User(final int id, final String login, final String email) {
         this.id = id;
         this.login = login;
         this.email = email;
+    }
+
+    public Role getRole() {
+        return role;
+    }
+
+    public void setRole(Role role) {
+        this.role = role;
+    }
+
+    public Set<Message> getMessages() {
+        return messages;
+    }
+
+    public void setMessages(Set<Message> messages) {
+        this.messages = messages;
     }
 
     public String getLogin() {
-        return login;
+        return this.login;
     }
 
-    public void setLogin(String login){
+    public String getEmail() {
+        return this.email;
+    }
+
+    public void setLogin(String login) {
         this.login = login;
     }
 
-    public String getEmail(){
-        return email;
-    }
-
-    public void setEmail(String email){
+    public void setEmail(String email) {
         this.email = email;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 }
